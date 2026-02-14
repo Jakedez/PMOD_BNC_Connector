@@ -1,0 +1,5 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"J1, J2",PinHeader_1x06_P2.54mm_Vertical,2,Conn_01x06,
+"TP1, TP2",TestPoint_Pad_4.0x4.0mm,2,TestPoint,
+"U1, U2, U3, U4",TEST-TH_BD2.54-P1.4_RED,4,RH-5000,C5277086
+"U5, U6, U7, U8",BNC-TH_L12.0-W12.0,4,HL-BNC-KHDA,C19712152

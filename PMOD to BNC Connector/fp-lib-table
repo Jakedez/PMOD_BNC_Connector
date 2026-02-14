@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BNC")(type "KiCad")(uri "${KIPRJMOD}/Libs/BNC")(options "")(descr ""))
+  (lib (name "Test_point")(type "KiCad")(uri "${KIPRJMOD}/Libs/Test_Point")(options "")(descr ""))
+  (lib (name "EasyEDA")(type "KiCad")(uri "${KIPRJMOD}/Libs/EasyEDA.pretty")(options "")(descr ""))
+)
