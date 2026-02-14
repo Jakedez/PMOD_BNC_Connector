@@ -912,6 +912,12 @@
 		(uuid "68d34647-7197-44c7-b44e-01f921058e95")
 	)
 	(junction
+		(at 62.23 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a21a32e-b8fe-40af-9139-688db550d08d")
+	)
+	(junction
 		(at 62.23 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -946,6 +952,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af5b26b1-ae3e-4c4b-9346-64875a18309e")
+	)
+	(junction
+		(at 62.23 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4a5811a-05d4-4317-8cff-0178ee424604")
 	)
 	(junction
 		(at 80.01 33.02)
@@ -1043,6 +1055,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 113.03) (xy 62.23 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11df7612-47a2-4b4b-956e-4eac1b36fa9e")
+	)
+	(wire
+		(pts
 			(xy 73.66 62.23) (xy 73.66 77.47)
 		)
 		(stroke
@@ -1100,6 +1122,16 @@
 			(type default)
 		)
 		(uuid "1b4b9ca4-7f3a-492b-babe-6f0a7dc5cbf4")
+	)
+	(wire
+		(pts
+			(xy 40.64 45.72) (xy 62.23 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25ad3995-8ea0-4fce-9764-11e6eb1c13cc")
 	)
 	(wire
 		(pts
@@ -1453,7 +1485,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 106.68) (xy 62.23 116.84)
+			(xy 62.23 106.68) (xy 62.23 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1523,6 +1555,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 45.72) (xy 62.23 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad26dd1b-de7a-46a5-b160-c2abd8274899")
+	)
+	(wire
+		(pts
 			(xy 62.23 52.07) (xy 62.23 54.61)
 		)
 		(stroke
@@ -1543,7 +1585,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 40.64) (xy 62.23 52.07)
+			(xy 62.23 40.64) (xy 62.23 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1620,6 +1662,16 @@
 			(type default)
 		)
 		(uuid "ec44bcb3-ca1a-4537-b66b-b124a6eff405")
+	)
+	(wire
+		(pts
+			(xy 62.23 113.03) (xy 62.23 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eddc2ca5-0ad5-474c-92a7-28a9a25ca9f3")
 	)
 	(wire
 		(pts
@@ -1713,6 +1765,80 @@
 			(project "PMOD_Connector"
 				(path "/c78f13c0-c6c4-40d5-87d9-3ba336170ebc"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Test_point:RH-5000")
+		(at 36.83 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22dcae34-4d33-46e5-b72b-92c80a8699ab")
+		(property "Reference" "U9"
+			(at 34.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RH-5000"
+			(at 34.29 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Test_point:TEST-TH_BD2.54-P1.4_RED"
+			(at 36.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5277086"
+			(at 36.83 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aab8fec8-e358-475c-99e2-5e3205b8710c")
+		)
+		(instances
+			(project "PMOD to BNC Connector"
+				(path "/c78f13c0-c6c4-40d5-87d9-3ba336170ebc"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -2380,6 +2506,80 @@
 			(project ""
 				(path "/c78f13c0-c6c4-40d5-87d9-3ba336170ebc"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Test_point:RH-5000")
+		(at 35.56 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0e3245e-b0ea-416f-a78d-82c1f25e5f99")
+		(property "Reference" "U10"
+			(at 33.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RH-5000"
+			(at 33.02 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Test_point:TEST-TH_BD2.54-P1.4_RED"
+			(at 35.56 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5277086"
+			(at 35.56 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f440045a-d847-418d-8522-123f3d017111")
+		)
+		(instances
+			(project "PMOD to BNC Connector"
+				(path "/c78f13c0-c6c4-40d5-87d9-3ba336170ebc"
+					(reference "U10")
 					(unit 1)
 				)
 			)
