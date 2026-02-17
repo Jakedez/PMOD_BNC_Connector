@@ -818,7 +818,7 @@
 			(uuid "28e50211-fdb4-4098-9251-91c4d6283a4e")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Jacob Deschamps/Documents/KiCad/Projects/PMOD to BNC Connector/Libs/EasyEDA.3dshapes/BNC-TH_L12.0-W12.0.wrl"
+		(model "${KIPRJMOD}/Libs/EasyEDA.3dshapes/BNC-TH_L12.0-W12.0.wrl"
 			(offset
 				(xyz 0 -0 0)
 			)
@@ -1441,7 +1441,7 @@
 			(uuid "3619cb0e-6e1a-4432-8bf7-350c2aaafed4")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Jacob Deschamps/Documents/KiCad/Projects/PMOD to BNC Connector/Libs/EasyEDA.3dshapes/BNC-TH_L12.0-W12.0.wrl"
+		(model "${KIPRJMOD}/Libs/EasyEDA.3dshapes/BNC-TH_L12.0-W12.0.wrl"
 			(offset
 				(xyz 0 -0 0)
 			)
@@ -2419,7 +2419,7 @@
 			(uuid "48b0e694-d925-499b-8425-2c59a2a313fa")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Jacob Deschamps/Documents/KiCad/Projects/PMOD to BNC Connector/Libs/EasyEDA.3dshapes/BNC-TH_L12.0-W12.0.wrl"
+		(model "${KIPRJMOD}/Libs/EasyEDA.3dshapes/BNC-TH_L12.0-W12.0.wrl"
 			(offset
 				(xyz 0 -0 0)
 			)
