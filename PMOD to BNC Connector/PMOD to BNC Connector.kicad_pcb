@@ -362,9 +362,9 @@
 	(footprint "Test_point:TEST-TH_BD2.54-P1.4_RED"
 		(layer "F.Cu")
 		(uuid "0e5196eb-5bc0-4f1f-8331-d1802c222fe9")
-		(at 147 159.01)
+		(at 147 159.01 90)
 		(property "Reference" "U4"
-			(at 0 -4 0)
+			(at 0 -4 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "604ea7a6-6f18-4a18-8ea9-a95637c543cd")
@@ -376,7 +376,7 @@
 			)
 		)
 		(property "Value" "RH-5000"
-			(at 0 4 0)
+			(at 0 4 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bcc8dbb8-072e-4153-9c80-bdc8c3d1d32e")
@@ -388,7 +388,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "08d4ccc7-f971-4c34-9265-129b1976d5ee")
@@ -400,7 +400,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b51d7130-20fb-4d7a-8f83-65bfb4e9ebae")
@@ -412,7 +412,7 @@
 			)
 		)
 		(property "LCSC Part" "C5277086"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -451,7 +451,7 @@
 			(uuid "d07dd774-74e9-44db-b1b4-9e77d9b7b20b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "53d546e9-1c9e-450d-a514-d12193adba74")
 			(effects
@@ -462,7 +462,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.9 1.9)
 			(drill 1.199998)
 			(layers "*.Cu" "*.Mask")
@@ -473,7 +473,7 @@
 			(uuid "aad9f35e-f892-477a-8bff-6e5eca45c77a")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/TEST-TH_BD2.54-P1.4_RED.wrl"
+		(model "${KIPRJMOD}/Libs/EasyEDA.3dshapes/TEST-TH_BD2.54-P1.4_RED.wrl"
 			(offset
 				(xyz 0 -0 0)
 			)
@@ -833,12 +833,12 @@
 	(footprint "Test_point:TEST-TH_BD2.54-P1.4_RED"
 		(layer "F.Cu")
 		(uuid "1fbfc153-1388-4097-b5bd-a2effc5165bc")
-		(at 147 136.15)
+		(at 147 136.15 90)
 		(property "Reference" "U2"
-			(at 0 -4 0)
+			(at 0 -4 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "29597b7f-17fb-4b24-a9a9-ae68f3e9bd0d")
+			(uuid "fc4af960-8994-4915-8bc6-bdf7d77099f6")
 			(effects
 				(font
 					(size 1 1)
@@ -847,10 +847,10 @@
 			)
 		)
 		(property "Value" "RH-5000"
-			(at 0 4 0)
+			(at 0 4 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a45057cf-f563-4017-af8f-fea93e0179c6")
+			(uuid "ed978011-350e-4bb7-bd25-c80effca331d")
 			(effects
 				(font
 					(size 1 1)
@@ -859,10 +859,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1af22c6f-eee5-45d4-98ca-73a2af84cd52")
+			(uuid "21fd5c3f-0d7f-4fd1-9bc4-ad08f8d499d3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -871,10 +871,10 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3555b465-bd56-4d50-8386-af39290c89a3")
+			(uuid "6434c5d8-a317-467c-9ff7-7f0fb2063e45")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -883,7 +883,7 @@
 			)
 		)
 		(property "LCSC Part" "C5277086"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -922,7 +922,7 @@
 			(uuid "7cd609e2-8d88-44bd-89b6-9bcbdca4b492")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "2ec32e18-512a-4776-912a-6cc5ddf26db6")
 			(effects
@@ -933,7 +933,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.9 1.9)
 			(drill 1.199998)
 			(layers "*.Cu" "*.Mask")
@@ -944,7 +944,7 @@
 			(uuid "e2dc6b35-940b-43bd-9894-32aa7d8cada6")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/TEST-TH_BD2.54-P1.4_RED.wrl"
+		(model "${KIPRJMOD}/Libs/EasyEDA.3dshapes/TEST-TH_BD2.54-P1.4_RED.wrl"
 			(offset
 				(xyz 0 -0 0)
 			)
@@ -1711,9 +1711,9 @@
 	(footprint "Test_point:TEST-TH_BD2.54-P1.4_RED"
 		(layer "F.Cu")
 		(uuid "572c288b-6494-470f-883d-cfa7d1ac0547")
-		(at 147 147.58)
+		(at 147 147.58 90)
 		(property "Reference" "U3"
-			(at 0 -4 0)
+			(at 0 -4 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7dd99ccd-0b57-45c2-9aba-300f92b598c1")
@@ -1725,7 +1725,7 @@
 			)
 		)
 		(property "Value" "RH-5000"
-			(at 0 4 0)
+			(at 0 4 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9dc9b013-ede6-4362-8c3d-27c01bfaeb70")
@@ -1737,7 +1737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5cb65d60-cd44-4a8a-8cb4-e3c745b44417")
@@ -1749,7 +1749,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "105d7adb-5e92-4973-9e61-9704b1a1a13b")
@@ -1761,7 +1761,7 @@
 			)
 		)
 		(property "LCSC Part" "C5277086"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1800,7 +1800,7 @@
 			(uuid "3177f520-13e4-4b99-bcd6-2c972153372f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "f71e9370-7c4c-481c-b459-28f8f66b3e2f")
 			(effects
@@ -1811,7 +1811,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.9 1.9)
 			(drill 1.199998)
 			(layers "*.Cu" "*.Mask")
@@ -1822,7 +1822,7 @@
 			(uuid "dc10002d-a4de-488c-ad85-889e3f4e5584")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/TEST-TH_BD2.54-P1.4_RED.wrl"
+		(model "${KIPRJMOD}/Libs/EasyEDA.3dshapes/TEST-TH_BD2.54-P1.4_RED.wrl"
 			(offset
 				(xyz 0 -0 0)
 			)
@@ -1837,9 +1837,9 @@
 	(footprint "Test_point:TEST-TH_BD2.54-P1.4_RED"
 		(layer "F.Cu")
 		(uuid "5756dcd1-1bee-43e4-8687-b025f5155b9b")
-		(at 147 124.72)
+		(at 147 124.72 90)
 		(property "Reference" "U1"
-			(at 0 -4 0)
+			(at 0 -4 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "eb250db0-cd19-4734-8179-8a8167f751b2")
@@ -1851,7 +1851,7 @@
 			)
 		)
 		(property "Value" "RH-5000"
-			(at 0 4 0)
+			(at 0 4 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "579538f0-fccd-4c81-917f-9acbdc6eae5e")
@@ -1863,7 +1863,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cbf5bb82-0086-4330-8969-5fa6136e4ae0")
@@ -1875,7 +1875,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "40b93dd1-0b26-4a7f-881c-91c12b932db9")
@@ -1887,7 +1887,7 @@
 			)
 		)
 		(property "LCSC Part" "C5277086"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1926,7 +1926,7 @@
 			(uuid "fe132c48-eea3-450f-9657-4164ffeda81f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "67c1a39d-f468-4405-907f-9e9d506d08a8")
 			(effects
@@ -1937,7 +1937,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.9 1.9)
 			(drill 1.199998)
 			(layers "*.Cu" "*.Mask")
@@ -1948,7 +1948,7 @@
 			(uuid "6ea7b6e2-8ce0-4b1f-9efd-761e98b55cc3")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/TEST-TH_BD2.54-P1.4_RED.wrl"
+		(model "${KIPRJMOD}/Libs/EasyEDA.3dshapes/TEST-TH_BD2.54-P1.4_RED.wrl"
 			(offset
 				(xyz 0 -0 0)
 			)
@@ -1963,9 +1963,9 @@
 	(footprint "Test_point:TEST-TH_BD2.54-P1.4_RED"
 		(layer "F.Cu")
 		(uuid "5f5d0763-5472-46d2-adb7-24b74cca8fda")
-		(at 147 117)
+		(at 147 117 90)
 		(property "Reference" "U9"
-			(at 0 -4 0)
+			(at 0 -4 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f2c36126-8024-40c3-9ce7-518d7c5a01fc")
@@ -1977,7 +1977,7 @@
 			)
 		)
 		(property "Value" "RH-5000"
-			(at 0 4 0)
+			(at 0 4 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9264006f-1f28-4187-ab2e-806d194a0f97")
@@ -1989,7 +1989,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "396f2471-bb06-44bf-92a6-5e674a01a1d9")
@@ -2001,7 +2001,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3ecb8613-bd14-4502-a9b4-1081efc55969")
@@ -2013,7 +2013,7 @@
 			)
 		)
 		(property "LCSC Part" "C5277086"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2063,7 +2063,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.9 1.9)
 			(drill 1.199998)
 			(layers "*.Cu" "*.Mask")
@@ -2074,7 +2074,7 @@
 			(uuid "2871ac6d-b6bc-4639-a4b5-355c0e6280a2")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/TEST-TH_BD2.54-P1.4_RED.wrl"
+		(model "${KIPRJMOD}/Libs/EasyEDA.3dshapes/TEST-TH_BD2.54-P1.4_RED.wrl"
 			(offset
 				(xyz 0 -0 0)
 			)
@@ -2807,9 +2807,9 @@
 	(footprint "Test_point:TEST-TH_BD2.54-P1.4_RED"
 		(layer "F.Cu")
 		(uuid "e7ff45c1-fa63-4b64-b4c8-22ed2fc848b0")
-		(at 147 166.73)
+		(at 147 166.73 90)
 		(property "Reference" "U10"
-			(at 0 -4 0)
+			(at 0 -4 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "aa7f63ff-eea0-4f63-935b-878f83c5f52f")
@@ -2821,7 +2821,7 @@
 			)
 		)
 		(property "Value" "RH-5000"
-			(at 0 4 0)
+			(at 0 4 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a1705e2c-4e07-4e75-acc9-3f5dddc68a43")
@@ -2833,7 +2833,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "67329c96-0876-461c-a17c-27e714bea533")
@@ -2845,7 +2845,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "92cc441d-6e91-4c5a-b7d0-56ad64f272bc")
@@ -2857,7 +2857,7 @@
 			)
 		)
 		(property "LCSC Part" "C5277086"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2896,7 +2896,7 @@
 			(uuid "7141c57b-64b7-460e-8e9a-d587782bf530")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "311b51e9-3f60-4c2c-b65f-32247338ea5a")
 			(effects
@@ -2907,7 +2907,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.9 1.9)
 			(drill 1.199998)
 			(layers "*.Cu" "*.Mask")
@@ -2918,7 +2918,7 @@
 			(uuid "c1668863-6e9d-403f-9aca-08b75f6b8004")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/TEST-TH_BD2.54-P1.4_RED.wrl"
+		(model "${KIPRJMOD}/Libs/EasyEDA.3dshapes/TEST-TH_BD2.54-P1.4_RED.wrl"
 			(offset
 				(xyz 0 -0 0)
 			)
@@ -3263,7 +3263,7 @@
 			(uuid "c68c1561-7c93-48a6-aeda-6bdcc7888b6c")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Jacob Deschamps/Documents/KiCad/Projects/PMOD to BNC Connector/Libs/EasyEDA.3dshapes/BNC-TH_L12.0-W12.0.wrl"
+		(model "${KIPRJMOD}/Libs/EasyEDA.3dshapes/BNC-TH_L12.0-W12.0.wrl"
 			(offset
 				(xyz 0 -0 0)
 			)
