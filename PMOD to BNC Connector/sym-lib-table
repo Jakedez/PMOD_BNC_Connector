@@ -3,4 +3,5 @@
   (lib (name "BNC")(type "KiCad")(uri "${KIPRJMOD}/Libs/BNC/SMA-TH_BNC-KWE-18.kicad_sym")(options "")(descr ""))
   (lib (name "Test_point")(type "KiCad")(uri "${KIPRJMOD}/Libs/Test_Point/test_point.kicad_sym")(options "")(descr ""))
   (lib (name "EasyEDA")(type "KiCad")(uri "${KIPRJMOD}/Libs/EasyEDA.kicad_sym")(options "")(descr ""))
+  (lib (name "New_test_point")(type "KiCad")(uri "${KIPRJMOD}/Libs/New_test_point/KiCADv6/2026-03-17_18-52-39.kicad_sym")(options "")(descr ""))
 )

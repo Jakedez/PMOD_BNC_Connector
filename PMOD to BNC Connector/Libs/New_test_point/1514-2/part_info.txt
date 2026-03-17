@@ -1,0 +1,9 @@
+Manufacturer=Keystone Electronics
+PartNumber=1514-2
+PartCategory=Undefined or Miscellaneous
+PackageCategory=Other
+PinCount=1
+Version=2.1
+Released=2017-08-22 10:50:22
+Downloaded=2026-03-17 18:18:08
+3D=Y

@@ -3,4 +3,5 @@
   (lib (name "BNC")(type "KiCad")(uri "${KIPRJMOD}/Libs/BNC")(options "")(descr ""))
   (lib (name "Test_point")(type "KiCad")(uri "${KIPRJMOD}/Libs/Test_Point")(options "")(descr ""))
   (lib (name "EasyEDA")(type "KiCad")(uri "${KIPRJMOD}/Libs/EasyEDA.pretty")(options "")(descr ""))
+  (lib (name "New_test_point")(type "KiCad")(uri "${KIPRJMOD}/Libs/New_test_point/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
